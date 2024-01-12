@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="EN">
+  <head>
+    <title>credits</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css">
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/components/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRJVLK8CC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9BRJVLK8CC');
+</script>    
+
+<script src="../../../../../../search-documents.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/olivernn/lunr.js@v2.3.9/lunr.js"></script>
+
+<script>
+// Script for full-text search of JsTree
+
+window.nsdJsTreeSearchCallback = function(str, node) { 
+    var sf = new $.vakata.search(str, true, { caseSensitive : false, fuzzy : false }); 
+    if (sf.search(node.text).isMatch) {
+		return true;
+	} 
+    let searchResult = this.search(str); 
+    for (const sr in searchResult) {
+        if (searchResult[sr].ref === node.original['data-nsd-label-uuid']) {
+            return true;
+        } 
+    } 
+    return false; 
+}.bind(lunr(function () {
+			  this.ref('id');
+			  this.field('title');
+			  this.field('content');
+
+			  for (const key in searchDocuments) {
+				  let doc = searchDocuments[key];
+				this.add({
+					id: doc['action-uuid'],
+					title: doc.title,
+					path: doc.path,
+					content: doc.content
+				});  
+			  }
+			}));
+</script>
+</head>
+  <body>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="b86bd330-d138-44b5-a746-461e0170622d" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon">Nasdanika Models</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item">
+              <a href="../../../../../../search.html" data-nsd-label-uuid="5bda5373-ad9d-48ab-9890-bdaba91adfdd" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="../../../../../../glossary.html" data-nsd-label-uuid="7b137f1f-2adc-41ac-88f8-5dfb032277fc" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="../../../../../../index.html" title="A domain model of a Bank which offers customer debit and credit accounts with linked cards. While a domain model of a real bank would be much more complex and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler this model is 
+of &quot;moderate&quot; complexity so it is not so hard to grasp, it demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts.
+
+
+Please keep in mind that this is just a demo, so the model may not be completely valid from the banking/finansial point of view." data-nsd-label-uuid="d857e556-089a-4939-8ace-bfd34e5d55a5" class="navbar-brand">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon">bank</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_2nl" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_2nl" class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a href="../../../../../../classifiers.html" data-nsd-label-uuid="d9c660d2-e1bb-4368-ae41-454c8994a0ef" class="nav-link">Classifiers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../../../../../../diagram.html" data-nsd-label-uuid="8b16aaf6-7e5e-4334-9899-00afeb8a5c10" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
+                </li>
+                <li class="nav-item">
+                  </li><li data-nsd-label-uuid="8a450942-1cf0-44b7-bcfe-6e1d74e3790b" class="dropdown">
+                    <a role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon">Graphs</a>
+                    <div class="dropdown-menu">
+                      <a href="../../../../../../default-graph.html" data-nsd-label-uuid="bb4f3fd6-d282-4bf6-a084-f2d2586e77fd" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph.html" data-nsd-label-uuid="b482441f-42be-4db8-8495-d0a80bd43eb9" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph.html" data-nsd-label-uuid="ccb8da3e-454a-4459-ba46-cbecc77549ce" class="dropdown-item">Force Graph</a>
+                      <div title="With dependencies and sub-packages" class="dropdown-divider"></div>
+                      <a href="../../../../../../default-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="087ffb59-a94b-4224-b6a6-0758561e7a61" class="dropdown-item">Default Graph</a>
+                      <a href="../../../../../../circular-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="2f724c69-9dac-4799-ac5d-c8568753cbea" class="dropdown-item">Circular Graph</a>
+                      <a href="../../../../../../force-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="e1a21517-a07a-4a60-abc3-c68c8788e16a" class="dropdown-item">Force Graph</a>
+                    </div>
+                  </li>
+                
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <div class="list-group list-group-flush">
+            <a href="../../../../Account/index.html" title="TODO" data-nsd-label-uuid="e3f4fd38-6d80-4b6c-af83-8424f665e11d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>Account</i></a>
+            <a href="../../../../Bank/index.html" title="Bank is the root of the domain model. Bank has customers and bankers - employees performing banking operations. Bank tracks merchants its customers interact with in order to provide customers information about their spending habits." data-nsd-label-uuid="870c48b4-502b-4592-b194-09804bcaeb37" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Bank</a>
+            <a href="../../../../Banker/index.html" title="TODO" data-nsd-label-uuid="ca00fd7b-71a9-4c4f-af97-f767f3d509af" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Banker</a>
+            <a href="../../../../BankerTransaction/index.html" title="TODO" data-nsd-label-uuid="4eff7941-5a76-48cd-bb3a-b36cee3a0b8f" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">BankerTransaction</a>
+            <a href="../../../../Card/index.html" title="TODO" data-nsd-label-uuid="c9a9b776-1a15-4c4b-8224-17c239d506d0" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Card</a>
+            <a href="../../../../ContactMethod/index.html" title="Contact method interface." data-nsd-label-uuid="bbb7eb75-13ab-4099-bace-3e411bb93b8d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"><i>ContactMethod</i></a>
+            <a href="../../../../Customer/index.html" title="TODO" data-nsd-label-uuid="acbf7eba-c617-489d-8a5d-ce62a88778b5" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Customer</a>
+            <a href="../../../../CustomerAccount/index.html" title="TODO" data-nsd-label-uuid="d2ca81b4-d9c6-4364-ab90-29fe2033c37d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">CustomerAccount</a>
+            <a href="../../../../Device/index.html" title="Device is a generic term for a card and other means to initiate a transaction on an account." data-nsd-label-uuid="35818535-d43a-42e9-9c85-e6a7cd41729b" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>Device</i></a>
+            <a href="../../../../DeviceTransaction/index.html" title="TODO" data-nsd-label-uuid="829921bb-6488-4fc6-a72b-f173f75410ca" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">DeviceTransaction</a>
+            <a href="../../../../EMail/index.html" data-nsd-label-uuid="f87f8870-f2cf-4a0e-9611-2cb10441f60d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">EMail</a>
+            <a href="../../../../InternalAccount/index.html" title="TODO" data-nsd-label-uuid="508b6d14-6c81-4412-969e-f748b9369a44" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">InternalAccount</a>
+            <a href="../../../../Merchant/index.html" title="TODO" data-nsd-label-uuid="38467c35-c983-4091-9289-f275f1126b91" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Merchant</a>
+            <a href="../../../../MobilePhone/index.html" title="TODO" data-nsd-label-uuid="41578142-78ba-4d35-b7d0-281f53ee7f37" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">MobilePhone</a>
+            <a href="../../../../OnlineSession/index.html" data-nsd-label-uuid="e07aa4ea-ade8-471e-b383-ebcb97210db5" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">OnlineSession</a>
+            <a href="../../../../OnlineTransaction/index.html" data-nsd-label-uuid="62da6576-4d4c-4910-b436-0db0a29b068a" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">OnlineTransaction</a>
+            <a href="../../../../Party/index.html" data-nsd-label-uuid="ad5f6de7-6643-494f-8f85-581fb7d1cf5b" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>Party</i></a>
+            <a href="../../../../Phone/index.html" data-nsd-label-uuid="a16e909b-c4b1-45ea-a21f-e838bc0e884b" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Phone</a>
+            <a href="../../../../PointOfSale/index.html" title="TODO" data-nsd-label-uuid="358d328d-b2be-47ab-a3d7-78cb1c6f9eae" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">PointOfSale</a>
+            <a href="../../../../PostalAddress/index.html" data-nsd-label-uuid="c37a1a52-d435-4723-a331-c4f0e2173fbf" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">PostalAddress</a>
+            <a href="../../../../Product/index.html" title="TODO" data-nsd-label-uuid="de18a360-1fa0-4217-842e-2195b6ede152" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Product</a>
+            <a href="../../../index.html" title="TODO" data-nsd-label-uuid="119a9d35-205a-437a-b301-6d4c11bfc987" class="list-group-item list-group-action active">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Statement</a>
+            <a href="../../../../Token/index.html" title="TODO" data-nsd-label-uuid="adb4ffc7-44ec-406c-ae32-dc05783d4652" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Token</a>
+            <a href="../../../../TokenTransaction/index.html" title="TODO" data-nsd-label-uuid="499d4514-78c4-48cd-9c6e-5defd98b7915" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">TokenTransaction</a>
+            <a href="../../../../Transaction/index.html" title="TODO" data-nsd-label-uuid="a0bcd988-1f7a-4fe5-a3ac-f687bc450d2f" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>Transaction</i></a>
+            <a href="../../../../TransactionInitiator/index.html" data-nsd-label-uuid="e0e92700-b4ed-42f0-aed3-e9de8a5258db" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"><i>TransactionInitiator</i></a>
+            <a href="../../../../WebAddress/index.html" data-nsd-label-uuid="670a8fa5-de32-450a-a5ae-a4d123d5078c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">WebAddress</a>
+          </div>
+        </div>
+        <div data-nsd-label-uuid="e7dce14d-a931-4ed5-b235-1afa75185b9f" data-nsd-action-uris="uuid:e7dce14d-a931-4ed5-b235-1afa75185b9f" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-breadcrumb-row">
+              <div class="col">
+                <nav aria-label="breadcrumb" class="nsd-app-content-panel-breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="../../../index.html" title="TODO" data-nsd-label-uuid="119a9d35-205a-437a-b301-6d4c11bfc987">
+                        <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon">Statement</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="../../../references.html" data-nsd-label-uuid="a6cf1f37-71b9-4e9e-ae58-ffa0fe14b75a">
+                        <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon">References</a>
+                    </li>
+                    <li class="breadcrumb-item active"><span title="TODO" data-nsd-label-uuid="e7dce14d-a931-4ed5-b235-1afa75185b9f"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon">credits</span>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <h1><span title="TODO" data-nsd-label-uuid="e7dce14d-a931-4ed5-b235-1afa75185b9f" class="nsd-app-content-panel-title"><img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EReference.gif" class="nsd-app-label-icon">credits<a href="https://ecore.models.nasdanika.org/references/eClassifiers/EReference/index.html" style="vertical-align:super;font-size:x-small;margin-left:0.2em"><span class="far fa-question-circle nsd-app-label-icon"></span></a></span>
+                </h1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col"><div class="markdown-body"><p>TODO</p>
+</div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-footer">
+          <ul class="nav nsd-app-footer-navs">
+            <li class="nav-item">
+              <a href="https://github.com/Nasdanika-Models/bank" data-nsd-label-uuid="035b637a-7e9a-4448-9aac-71e5c4080514" class="nav-link"><span class="fab fa-github nsd-app-label-icon"></span>Sources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
