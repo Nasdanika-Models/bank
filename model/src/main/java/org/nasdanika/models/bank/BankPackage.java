@@ -20,11 +20,13 @@ import org.eclipse.emf.ecore.EReference;
  * </ul>
  * <!-- end-user-doc -->
  * <!-- begin-model-doc -->
- * A domain model of a Bank which offers customer debit and credit accounts with linked cards. While a domain model of a real bank would be much more complex and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler this model is 
- * of "moderate" complexity so it is not so hard to grasp, it demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts.
+ * A domain model of a Bank which offers customer debit and credit accounts with linked cards. 
+ * While a domain model of a real bank would be much more complex, and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler,
+ * this model is of "moderate" complexity so it is not so hard to grasp.
+ * It demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts.
  * 
- * 
- * Please keep in mind that this is just a demo, so the model may not be completely valid from the banking/finansial point of view.
+ * Please keep in mind that this is just a demo, so the model may not be completely valid from the banking/financial point of view.
+ * It was created in 2018 and may not reflect the latest trends.
  * <!-- end-model-doc -->
  * @see org.nasdanika.models.bank.BankFactory
  * @model kind="package"

@@ -1622,7 +1622,7 @@ public class BankPackageImpl extends EPackageImpl implements BankPackage {
 		  (this,
 		   source,
 		   new String[] {
-			   "documentation", "A domain model of a Bank which offers customer debit and credit accounts with linked cards. While a domain model of a real bank would be much more complex and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler this model is \r\nof \"moderate\" complexity so it is not so hard to grasp, it demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts.\r\n\r\n\r\nPlease keep in mind that this is just a demo, so the model may not be completely valid from the banking/finansial point of view."
+			   "documentation", "A domain model of a Bank which offers customer debit and credit accounts with linked cards. \nWhile a domain model of a real bank would be much more complex, and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler,\nthis model is of \"moderate\" complexity so it is not so hard to grasp.\nIt demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts.\n\nPlease keep in mind that this is just a demo, so the model may not be completely valid from the banking/financial point of view.\nIt was created in 2018 and may not reflect the latest trends."
 		   });
 		addAnnotation
 		  (getParty_ContactMethods(),
