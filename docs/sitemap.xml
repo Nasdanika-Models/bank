@@ -2,1382 +2,1382 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://bank.models.nasdanika.org/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-06T18:07:50.405-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.515-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.398-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.502-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/classifiers.html</loc>
-    <lastmod>2024-07-06T18:07:50.377-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.479-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/default-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-06T18:07:50.402-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.512-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.395-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.499-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.393-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.496-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/force-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-07-06T18:07:50.408-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.518-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.400-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.502-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/glossary.html</loc>
-    <lastmod>2024-07-06T18:07:50.426-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.540-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.767-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.568-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.775-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.575-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.805-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.622-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.801-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.619-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.799-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.617-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.808-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.626-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.772-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.572-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.794-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.612-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references/eStructuralFeatures/balance/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.782-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.582-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references/eStructuralFeatures/description/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.785-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.582-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references/eStructuralFeatures/number/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.779-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.580-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references/eStructuralFeatures/periodStart/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.788-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.582-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references/eStructuralFeatures/statements/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.790-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.594-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Account/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.792-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.596-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.814-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.632-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.844-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.672-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.842-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.669-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.840-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.667-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.847-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.675-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.811-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.630-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.816-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.637-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.849-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.675-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/accounts/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.828-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.652-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/bankers/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.832-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.656-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/customers/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.830-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.654-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/merchants/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.823-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.646-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/products/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.825-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.649-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references/eStructuralFeatures/transactions/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.835-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.660-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Bank/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.819-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.641-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.852-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.683-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.863-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.699-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.861-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.697-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.859-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.694-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.865-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.702-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.851-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.681-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.854-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.683-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.867-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.704-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Banker/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.855-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.683-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.871-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.711-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.881-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.723-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.879-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.720-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.877-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.719-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.883-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.726-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.869-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.708-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.872-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.714-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.885-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.728-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/BankerTransaction/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.875-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.716-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.889-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.734-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.919-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.775-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.917-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.775-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.915-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.775-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.921-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.782-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.887-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.731-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.911-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.770-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.923-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.814-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/activated/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.899-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.754-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/deactivated/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.902-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.760-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/expires/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.904-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.763-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/id/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.895-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.743-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/issued/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.897-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.743-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/lockedTo/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.906-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.765-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/replaces/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.909-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.768-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references/eStructuralFeatures/virtual/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.893-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.742-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Card/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.913-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.772-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.928-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.821-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.938-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.832-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.935-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.830-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.933-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.828-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.941-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.834-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.925-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.819-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/ContactMethod/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.930-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.823-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.945-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.838-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.961-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.879-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.959-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.877-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.957-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.873-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.963-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.881-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.944-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.837-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.947-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.840-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.965-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.883-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/references/eStructuralFeatures/accounts/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.953-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.847-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Customer/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.949-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.843-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:49.970-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.890-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.989-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.947-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.987-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.945-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:49.985-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.943-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:49.991-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.968-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.886-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.972-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.894-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:49.993-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.952-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/references/eStructuralFeatures/devices/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.978-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.904-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/references/eStructuralFeatures/owners/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.982-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.910-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/references/eStructuralFeatures/product/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.980-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.904-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/CustomerAccount/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.974-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.894-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.011-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.976-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.009-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.972-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.008-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.970-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.013-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.988-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/index.html</loc>
-    <lastmod>2024-07-06T18:07:49.995-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.955-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:49.997-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.958-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/references/eStructuralFeatures/tokens/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.004-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.966-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Device/references.html</loc>
-    <lastmod>2024-07-06T18:07:49.998-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.961-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.018-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.994-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.032-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.013-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.030-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.011-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.028-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.006-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.034-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.015-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.016-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.992-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.019-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.036-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.017-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/references/eStructuralFeatures/pointOfSale/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.025-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.002-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/DeviceTransaction/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.021-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:13.998-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.040-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.031-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.048-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.040-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.046-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.038-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.045-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.035-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.050-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.043-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.039-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.020-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.042-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.033-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/EMail/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.052-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.045-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.056-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.050-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.066-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.078-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.064-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.076-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.062-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.059-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.068-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.089-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.055-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.048-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.058-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.053-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.070-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.092-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/InternalAccount/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.060-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.055-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.074-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.097-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.089-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.117-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.087-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.115-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.086-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.113-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.091-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.120-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.072-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.095-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.076-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.099-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.093-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.122-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/references/eStructuralFeatures/pointsOfSale/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.081-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.106-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Merchant/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.078-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.101-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.098-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.135-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.106-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.147-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.105-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.145-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.103-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.142-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.108-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.149-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.096-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.133-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.099-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.137-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.111-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.151-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/MobilePhone/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.101-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.138-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.115-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.155-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.123-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.169-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.121-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.166-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.119-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.161-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.124-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.172-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.114-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.153-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.117-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.157-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineSession/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.127-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.176-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.131-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.181-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.140-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.193-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.139-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.189-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.137-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.187-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.143-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.195-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.130-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.179-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.133-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.183-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.145-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.197-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/OnlineTransaction/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.135-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.185-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.149-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.202-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.164-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.219-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.162-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.218-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.160-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.215-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.166-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.221-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.148-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.201-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.156-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.211-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/references/eStructuralFeatures/contactMethods/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.154-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.209-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Party/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.151-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.204-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.171-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.228-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.179-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.235-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.177-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.234-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.175-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.232-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.181-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.237-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.169-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.226-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.173-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.230-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Phone/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.183-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.239-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.187-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.246-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.196-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.256-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.194-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.254-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.192-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.252-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.198-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.260-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.186-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.245-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.200-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.262-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PointOfSale/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.189-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.249-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.205-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.267-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.213-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.277-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.212-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.273-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.210-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.271-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.215-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.279-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.203-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.265-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.207-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.269-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/PostalAddress/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.217-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.281-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.222-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.287-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.229-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.294-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.227-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.292-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.225-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.290-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.231-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.296-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.220-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.285-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Product/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.232-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.297-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.237-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.303-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.261-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.333-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.259-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.330-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.256-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.328-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.264-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.335-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.236-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.301-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.267-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.337-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/closingBalance/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.245-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.315-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/closingDate/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.247-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.317-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/credits/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.251-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.321-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/debits/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.249-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.319-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/openingBalance/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.241-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.307-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references/eStructuralFeatures/openingDate/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.243-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.313-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Statement/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.253-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.323-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.272-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.342-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.285-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.359-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.283-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.356-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.281-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.354-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.287-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.362-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.270-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.340-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.273-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.344-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.289-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.365-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/references/eStructuralFeatures/merchant/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.279-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.351-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Token/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.275-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.346-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.294-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.370-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.304-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.381-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.302-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.379-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.300-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.377-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.305-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.389-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.292-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.368-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.296-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.372-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.307-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TokenTransaction/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.298-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.373-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.312-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.340-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.431-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.338-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.429-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.336-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.423-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.342-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.433-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.310-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.331-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.419-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/amount/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.316-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/comment/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.319-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/credit/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.326-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.413-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/date/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.317-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.392-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/debit/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.323-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.411-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references/eStructuralFeatures/id/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.321-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.408-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/references.html</loc>
-    <lastmod>2024-07-06T18:07:50.328-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.415-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/Transaction/type-parameters.html</loc>
-    <lastmod>2024-07-06T18:07:50.330-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.417-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.355-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.448-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.354-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.446-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.352-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.444-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.357-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.450-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.346-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.437-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/TransactionInitiator/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.348-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.438-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/attributes.html</loc>
-    <lastmod>2024-07-06T18:07:50.364-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.456-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/circular-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.370-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.468-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/default-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.369-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.466-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/diagram.html</loc>
-    <lastmod>2024-07-06T18:07:50.367-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.464-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/force-layout-graph.html</loc>
-    <lastmod>2024-07-06T18:07:50.372-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.471-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/index.html</loc>
-    <lastmod>2024-07-06T18:07:50.362-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.454-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/inheritance.html</loc>
-    <lastmod>2024-07-06T18:07:50.365-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.460-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/references/eClassifiers/WebAddress/load-specification.html</loc>
-    <lastmod>2024-07-06T18:07:50.374-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.476-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bank.models.nasdanika.org/search.html</loc>
-    <lastmod>2024-07-06T18:07:50.416-04:00</lastmod>
+    <lastmod>2024-07-23T08:14:14.528-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
