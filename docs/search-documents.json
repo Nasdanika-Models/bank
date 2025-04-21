@@ -1,647 +1,647 @@
 {
   "references/eClassifiers/Card/index.html": {
-    "link-uuid": "6e9adae9-7d88-471e-b564-0b3c5dd2e064",
+    "link-uuid": "04ff4c83-65c4-4bc1-8061-4ea0aa0841e3",
     "title": "Card",
     "content": "TODO"
   },
   "references/eClassifiers/ContactMethod/references/eStructuralFeatures/description/index.html": {
     "path": "ContactMethod/Attributes/description",
-    "link-uuid": "74778bff-afc3-4596-a19e-fc71152f1be9",
+    "link-uuid": "26247844-8621-44a3-ab82-c235d4256beb",
     "title": "description",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/date/index.html": {
     "path": "Transaction/Attributes/date",
-    "link-uuid": "a4f0df3e-0ebc-45d7-b416-89379b9e93df",
+    "link-uuid": "3fad8e51-4661-4d74-8017-f8bac39c65ed",
     "title": "date",
     "content": "Type EDate Multiplicity 0..1 Date"
   },
   "references/eClassifiers/Banker/index.html": {
-    "link-uuid": "09a4a2d7-1228-4d6f-8c84-47931e95f44e",
+    "link-uuid": "d99751bc-1354-4382-9d25-230cf0afd7d5",
     "title": "Banker",
     "content": "TODO"
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/line1/index.html": {
     "path": "PostalAddress/Attributes/line1",
-    "link-uuid": "9ae4e925-66e6-48a1-8744-c0be918a26a7",
+    "link-uuid": "83c9856f-85f4-49ce-a011-63e391e21237",
     "title": "line1",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Party/references/eStructuralFeatures/name/index.html": {
     "path": "Party/Attributes/name",
-    "link-uuid": "b906e658-3d7d-4133-ac6e-7e5ba35c807a",
+    "link-uuid": "4adcd093-aec4-4d77-8029-3be35e85640c",
     "title": "name",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/CustomerAccount/references/eStructuralFeatures/devices/index.html": {
     "path": "CustomerAccount/References/devices",
-    "link-uuid": "8f64fce3-e744-427a-9d12-b6fcb2a83e8c",
+    "link-uuid": "b7a80ebb-58f4-45a1-9470-f3e0d9177a7a",
     "title": "devices",
     "content": "Type Device Multiplicity 0..* TODO"
   },
   "references/eClassifiers/OnlineSession/references/eStructuralFeatures/internetAddress/index.html": {
     "path": "OnlineSession/Attributes/internetAddress",
-    "link-uuid": "31fcd11c-e359-4b3d-94e9-4ae582db1438",
+    "link-uuid": "96af1670-79d9-4e1e-bab0-818f9ba3ba31",
     "title": "internetAddress",
     "content": "Type EString Multiplicity 1"
   },
   "references/eClassifiers/Customer/index.html": {
-    "link-uuid": "6f95a174-1330-4b4b-8aa7-ca7c4b5eef9b",
+    "link-uuid": "de4599ca-23ec-4280-86ba-352024ef1ebe",
     "title": "Customer",
     "content": "TODO"
   },
   "references/eClassifiers/OnlineSession/inheritance.html": {
     "path": "OnlineSession/Inheritance",
-    "link-uuid": "5ebdaadd-35c1-4823-85b1-b1dfeb2c2008",
+    "link-uuid": "be295e0e-c15f-4666-b982-e520dc2cdbaf",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/stateProvince/index.html": {
     "path": "PostalAddress/Attributes/stateProvince",
-    "link-uuid": "280a3c4b-3915-47bc-ad18-151f999472c8",
+    "link-uuid": "40566b65-74a9-4018-a0b4-6071b95dd82a",
     "title": "stateProvince",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/TokenTransaction/index.html": {
-    "link-uuid": "e3d66ac5-155a-4844-9a5c-13734fa515f3",
+    "link-uuid": "3e8ed025-d784-493d-97ee-50d57d7e5329",
     "title": "TokenTransaction",
     "content": "TODO"
   },
   "references/eClassifiers/Token/references/eStructuralFeatures/value/index.html": {
     "path": "Token/Attributes/value",
-    "link-uuid": "7e361665-ace5-4f33-8b61-06b31b780f04",
+    "link-uuid": "33ec2576-e45f-4808-814b-533e04a2c3d7",
     "title": "value",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/issued/index.html": {
     "path": "Card/Attributes/issued",
-    "link-uuid": "434e2bc1-b03e-4b0d-998b-b3e019e01078",
+    "link-uuid": "3986df1a-e510-473d-8b54-4d5a67a6f6d6",
     "title": "issued",
     "content": "Type EDate Multiplicity 0..1 Issue date."
   },
   "references/eClassifiers/MobilePhone/references/eStructuralFeatures/key/index.html": {
     "path": "MobilePhone/Attributes/key",
-    "link-uuid": "c741601a-7c3d-49d5-b135-d396cd4a2007",
+    "link-uuid": "71f5f348-51c3-4f70-86b2-612f4594c67f",
     "title": "key",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/expires/index.html": {
     "path": "Card/Attributes/expires",
-    "link-uuid": "b4743302-6dd6-4e40-85c0-712920f27672",
+    "link-uuid": "71efde5a-3bda-42a0-a0ed-6aa93bdb5360",
     "title": "expires",
     "content": "Type EDate Multiplicity 0..1 Expiration date."
   },
   "references/eClassifiers/MobilePhone/references/eStructuralFeatures/number/index.html": {
     "path": "MobilePhone/Attributes/number",
-    "link-uuid": "5a7373fa-11dc-4d88-b79f-134c91155f1b",
+    "link-uuid": "c0008576-22db-4987-97fc-cf85d6c477e9",
     "title": "number",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/country/index.html": {
     "path": "PostalAddress/Attributes/country",
-    "link-uuid": "4d8fe0f2-27a5-4f79-9e94-cb2cf44e8486",
+    "link-uuid": "491f4ae6-2711-4140-8dd6-cdf476f8ad08",
     "title": "country",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Account/references/eStructuralFeatures/number/index.html": {
     "path": "Account/Attributes/number",
-    "link-uuid": "a8bcf221-8e09-459b-bd54-f55ca702574f",
+    "link-uuid": "d2c761bc-427f-45ec-81e3-4ec60e39f21a",
     "title": "number",
     "content": "Type EString Multiplicity 0..1 Account number."
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/merchants/index.html": {
     "path": "Bank/References/merchants",
-    "link-uuid": "d3f40ed7-f07b-4a2e-ad54-92d6d326edfc",
+    "link-uuid": "7b2b1107-1bb1-4495-852b-b8a6d7cbdd4d",
     "title": "merchants",
     "content": "Type Merchant Multiplicity 0..* Bank tracks merchants and points of sale used by customers. It also tracks token transactions."
   },
   "references/eClassifiers/Device/references/eStructuralFeatures/tokens/index.html": {
     "path": "Device/References/tokens",
-    "link-uuid": "0f6f2bd9-3a5e-470c-ace9-e7b0cfb596e4",
+    "link-uuid": "dc430d9e-12c7-4eba-b44d-a678efb36f59",
     "title": "tokens",
     "content": "Type Token Multiplicity 0..* TODO"
   },
   "references/eClassifiers/Account/index.html": {
-    "link-uuid": "0cc845ba-64a6-44cb-8bb2-f2b20015cf44",
+    "link-uuid": "542e180a-194e-4570-afce-ed1bbc555ae5",
     "title": "Account",
     "content": "TODO"
   },
   "references/eClassifiers/PointOfSale/index.html": {
-    "link-uuid": "4c6f788f-0b23-41de-8454-373a59ef456b",
+    "link-uuid": "96f13602-7413-4a41-8497-15cda4856818",
     "title": "PointOfSale",
     "content": "TODO"
   },
   "references/eClassifiers/Customer/references/eStructuralFeatures/accounts/index.html": {
     "path": "Customer/References/accounts",
-    "link-uuid": "5c8c53b1-6dbd-4ced-959e-58c51a1441c3",
+    "link-uuid": "fdc2f1f7-eada-4f84-89f0-6cf33c37ab1b",
     "title": "accounts",
     "content": "Type CustomerAccount Multiplicity 0..* TODO"
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/initiator/index.html": {
     "path": "Transaction/References/initiator",
-    "link-uuid": "c042caab-40a5-48a1-a5b8-4130a405452a",
+    "link-uuid": "b7208921-2d76-4f88-b49c-15d93dac4fda",
     "title": "initiator",
     "content": "Type TransactionInitiator Multiplicity 0..1"
   },
   "references/eClassifiers/Phone/inheritance.html": {
     "path": "Phone/Inheritance",
-    "link-uuid": "ae4833b9-c461-4547-b839-0057c1142ead",
+    "link-uuid": "830a1937-9f09-4c34-a539-0501802f05d6",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Transaction/index.html": {
-    "link-uuid": "3c13360d-eb95-4d33-95f7-454cc0063f18",
+    "link-uuid": "def2be32-b285-4c16-a946-4e8f579a60a0",
     "title": "Transaction",
     "content": "TODO"
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/amount/index.html": {
     "path": "Transaction/Attributes/amount",
-    "link-uuid": "763e6986-6375-4ce6-b273-50f5cb5dad72",
+    "link-uuid": "fac936df-10c6-43b4-8b4e-4a1eadeb2548",
     "title": "amount",
     "content": "Type EBigDecimal Multiplicity 0..1 Amount"
   },
   "references/eClassifiers/BankerTransaction/index.html": {
-    "link-uuid": "1b4e9290-6bed-4c33-bb34-7edd843b9162",
+    "link-uuid": "3aafba72-60be-4a22-bee6-b99fa2e062ab",
     "title": "BankerTransaction",
     "content": "TODO"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/replaces/index.html": {
     "path": "Card/References/replaces",
-    "link-uuid": "70f4ac98-9e08-4ebb-809c-6dbfea7db611",
+    "link-uuid": "90754fc0-c405-4812-972c-dd3d98a15258",
     "title": "replaces",
     "content": "Type Card Multiplicity 0..1 Reference to a card which this one replaces, e.g. a new card replaces an old damaged/lost/stolen/expired card. Or a virtual card replaces a physical card (at a specific merchant)."
   },
   "references/eClassifiers/TransactionInitiator/inheritance.html": {
     "path": "TransactionInitiator/Inheritance",
-    "link-uuid": "d6bc0e27-c210-4b3c-9b70-a274661e35e2",
+    "link-uuid": "27c177aa-b983-43f5-8680-2bef9b27d5c7",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/Bank/inheritance.html": {
     "path": "Bank/Inheritance",
-    "link-uuid": "97c4fa78-90cf-4bc1-81ae-df6f3409fde3",
+    "link-uuid": "4b185b93-6388-41a4-b4d4-86fc18052df4",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/MobilePhone/inheritance.html": {
     "path": "MobilePhone/Inheritance",
-    "link-uuid": "9e61adf0-9c2d-4bc0-b3de-acab6bfb7a93",
+    "link-uuid": "dcef33ff-1dfd-43b1-9897-1db9e6644b2a",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Account/references/eStructuralFeatures/statements/index.html": {
     "path": "Account/References/statements",
-    "link-uuid": "e687d166-7a28-436b-b42a-6c528d8d595f",
+    "link-uuid": "5ced54aa-8aa2-4baa-801e-da7a85ce05f0",
     "title": "statements",
     "content": "Type Statement Multiplicity 0..* TODO"
   },
   "references/eClassifiers/ContactMethod/index.html": {
-    "link-uuid": "9ddc210c-df18-42f0-b6cb-1e720d5356bc",
+    "link-uuid": "2d284ebf-c369-4f75-a86a-10715e19163d",
     "title": "ContactMethod",
     "content": "Contact method interface."
   },
   "references/eClassifiers/InternalAccount/index.html": {
-    "link-uuid": "00e573ae-8c38-4eed-8f63-3f0106e3c2dd",
+    "link-uuid": "4d20a299-15df-44d5-b77b-3e1768cc3987",
     "title": "InternalAccount",
     "content": "TODO"
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/openingBalance/index.html": {
     "path": "Statement/Attributes/openingBalance",
-    "link-uuid": "a1c85d76-1321-4988-9d6e-d1a30428574f",
+    "link-uuid": "f197b067-bac7-4e9a-b78b-963d0ff7973b",
     "title": "openingBalance",
     "content": "Type EBigDecimal Multiplicity 0..1 Opening balance."
   },
   "references/eClassifiers/Account/references/eStructuralFeatures/description/index.html": {
     "path": "Account/Attributes/description",
-    "link-uuid": "0b39d050-4448-4f5e-8d36-4ecf1253ab2a",
+    "link-uuid": "b9964785-afc7-4a3d-83ff-11acef3ba059",
     "title": "description",
     "content": "Type EString Multiplicity 0..1 Account description, currently not used."
   },
   "references/eClassifiers/BankerTransaction/inheritance.html": {
     "path": "BankerTransaction/Inheritance",
-    "link-uuid": "90d54866-ccbd-47ea-8b95-df4056e3a710",
+    "link-uuid": "cc08df3c-a595-4df6-88e5-e8f1d277a92a",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Customer/references/eStructuralFeatures/onlineSessions/index.html": {
     "path": "Customer/References/onlineSessions",
-    "link-uuid": "f09cef17-7526-4c22-a338-4b8a63d20c28",
+    "link-uuid": "3fad41d4-9ff5-4ac1-b16e-b9bb61e331cc",
     "title": "onlineSessions",
     "content": "Type OnlineSession Multiplicity 0..*"
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/customers/index.html": {
     "path": "Bank/References/customers",
-    "link-uuid": "8b509b47-9487-42f3-85d6-8dccdba139fb",
+    "link-uuid": "915aaf26-6ef5-4989-84b2-789770897017",
     "title": "customers",
     "content": "Type Customer Multiplicity 0..* Bank customers."
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/line2/index.html": {
     "path": "PostalAddress/Attributes/line2",
-    "link-uuid": "11c5e353-b5eb-478f-822a-f782e9e71af1",
+    "link-uuid": "6299f5c8-9c4c-4081-a90f-30225c2edbd1",
     "title": "line2",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/virtual/index.html": {
     "path": "Card/Attributes/virtual",
-    "link-uuid": "539e2aaf-3fd2-4caa-8a51-4cf855eb0f23",
+    "link-uuid": "aec9faa1-23c5-4e21-a573-cac7d10ccab7",
     "title": "virtual",
     "content": "Type EBoolean Multiplicity 0..1 If true, the card is virtual, i.e. doesn&rsquo;t have physical representation."
   },
   "references/eClassifiers/Merchant/index.html": {
-    "link-uuid": "0dac4c09-35db-4090-92c9-a204dc214d97",
+    "link-uuid": "1150ee1d-b79a-46f2-a5de-fb2916b294ad",
     "title": "Merchant",
     "content": "TODO"
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/openingDate/index.html": {
     "path": "Statement/Attributes/openingDate",
-    "link-uuid": "8d669a7c-7853-46ba-b725-c42a7ffaeab3",
+    "link-uuid": "8211f686-4535-4671-b909-dee998fd8b7e",
     "title": "openingDate",
     "content": "Type EDate Multiplicity 0..1 Opening date."
   },
   "references/eClassifiers/Token/inheritance.html": {
     "path": "Token/Inheritance",
-    "link-uuid": "e4a49be2-639f-452c-bc24-a08048d42188",
+    "link-uuid": "a9dd8ce3-3743-4074-87d8-7f50e194309c",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Device/index.html": {
-    "link-uuid": "c4f77a46-b469-4591-8cd5-064d1bd18462",
+    "link-uuid": "15ec215c-e332-44f8-8e02-054f9ae3b980",
     "title": "Device",
     "content": "Device is a generic term for a card and other means to initiate a transaction on an account."
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/closingDate/index.html": {
     "path": "Statement/Attributes/closingDate",
-    "link-uuid": "73c1c989-bbf4-4c43-a49e-b1feb91b55fa",
+    "link-uuid": "8e91f439-78d6-4518-a8bf-8947bdd2b5c7",
     "title": "closingDate",
     "content": "Type EDate Multiplicity 0..1 Closing date."
   },
   "references/eClassifiers/Product/index.html": {
-    "link-uuid": "ed536c63-6fab-45c7-af77-52bee8b40627",
+    "link-uuid": "c5a4b322-7169-45c2-abff-ddab23871bac",
     "title": "Product",
     "content": "TODO"
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/debits/index.html": {
     "path": "Statement/References/debits",
-    "link-uuid": "8d985d7d-d0e4-4b30-ae27-eac052138579",
+    "link-uuid": "b1cfbe50-ad77-4a41-a269-d95d2e3d28ab",
     "title": "debits",
     "content": "Type Transaction Multiplicity 0..* TODO"
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/accounts/index.html": {
     "path": "Bank/References/accounts",
-    "link-uuid": "08995f44-2f30-4635-be09-dcdc1dd8e2bd",
+    "link-uuid": "71c8680b-f8ac-4d6f-96aa-23cb3327e449",
     "title": "accounts",
     "content": "Type Account Multiplicity 0..* The bank holds customer and own (internal) accounts."
   },
   "references/eClassifiers/WebAddress/references/eStructuralFeatures/url/index.html": {
     "path": "WebAddress/Attributes/url",
-    "link-uuid": "698f41f8-ccb1-4ba8-ada6-b4024aacda07",
+    "link-uuid": "df2207e9-3bab-4faa-8721-1b9e719db2cb",
     "title": "url",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Device/inheritance.html": {
     "path": "Device/Inheritance",
-    "link-uuid": "0e23cc0e-2272-458e-af03-ed3089f329a7",
+    "link-uuid": "b48261ea-a381-41ce-a66a-26ec65a70652",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/MobilePhone/index.html": {
-    "link-uuid": "1ad710b2-94c9-4c2c-883a-af0a376c3745",
+    "link-uuid": "c09d3ffb-f920-4b19-b142-72a881450503",
     "title": "MobilePhone",
     "content": "TODO"
   },
   "references/eClassifiers/Account/inheritance.html": {
     "path": "Account/Inheritance",
-    "link-uuid": "348b358a-ee9b-4f4b-bdb5-82a2c7b40bee",
+    "link-uuid": "d43d5957-8f5c-47e3-bb6b-ed2737cecb6c",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/Merchant/references/eStructuralFeatures/pointsOfSale/index.html": {
     "path": "Merchant/References/pointsOfSale",
-    "link-uuid": "2b23f993-e6f1-4e14-a436-598a311bc930",
+    "link-uuid": "fef85c71-c1de-4af8-8941-47b29abd5723",
     "title": "pointsOfSale",
     "content": "Type PointOfSale Multiplicity 0..* TODO"
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/bankers/index.html": {
     "path": "Bank/References/bankers",
-    "link-uuid": "50169aee-8618-4645-b843-20ddfed81a74",
+    "link-uuid": "69715314-f8f7-4e85-9990-d8166e0b33eb",
     "title": "bankers",
     "content": "Type Banker Multiplicity 0..* Bank employees."
   },
   "references/eClassifiers/Phone/references/eStructuralFeatures/phoneNumber/index.html": {
     "path": "Phone/Attributes/phoneNumber",
-    "link-uuid": "65c85a07-d21a-4bad-8952-cef499b56628",
+    "link-uuid": "819057fc-1873-49e2-a84c-752f2e6960fa",
     "title": "phoneNumber",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/Banker/inheritance.html": {
     "path": "Banker/Inheritance",
-    "link-uuid": "bd74fbe5-9214-4e0c-b8fc-5bdda5c4a930",
+    "link-uuid": "6180831e-66fb-41c8-98d5-016330e4d528",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/OnlineSession/references/eStructuralFeatures/start/index.html": {
     "path": "OnlineSession/Attributes/start",
-    "link-uuid": "72eb969f-8d54-4f0e-bb48-25120781f0d1",
+    "link-uuid": "e5997488-a465-44c7-8fbe-aa7c91e51d51",
     "title": "start",
     "content": "Type EDate Multiplicity 0..1"
   },
   "references/eClassifiers/OnlineSession/references/eStructuralFeatures/end/index.html": {
     "path": "OnlineSession/Attributes/end",
-    "link-uuid": "db7b3479-ad15-4534-a7d2-ae7fa4098180",
+    "link-uuid": "9d064c13-cf60-4954-b693-c1bf91715945",
     "title": "end",
     "content": "Type EDate Multiplicity 0..1"
   },
   "index.html": {
-    "link-uuid": "23265522-68f2-4958-9518-54e1cb096b22",
+    "link-uuid": "32852a89-279b-454d-8cb7-f234a3268b2e",
     "title": "bank",
     "content": "A domain model of a Bank which offers customer debit and credit accounts with linked cards. While a domain model of a real bank would be much more complex, and a domain model of a bounded context for a micro-service or a group of micro-services might be simpler, this model is of &ldquo;moderate&rdquo; complexity so it is not so hard to grasp. It demonstrates the value of model documentation to communicate common understanding accross the oranization (ubiquitous language), and it can be used to generate bounded contexts. Please keep in mind that this is just a demo, so the model may not be completely valid from the banking/financial point of view. It was created in 2018 and may not reflect the latest trends."
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/deactivated/index.html": {
     "path": "Card/Attributes/deactivated",
-    "link-uuid": "41b1968d-864e-4287-8f64-dd3729b65aff",
+    "link-uuid": "550952b0-3492-4405-9806-d8dade91b02d",
     "title": "deactivated",
     "content": "Type EDate Multiplicity 0..1 Deactivation date."
   },
   "references/eClassifiers/Phone/references/eStructuralFeatures/extension/index.html": {
     "path": "Phone/Attributes/extension",
-    "link-uuid": "d2b7269b-35c5-4d24-8344-1b818a6f78f6",
+    "link-uuid": "73534b2b-1311-45c4-a923-96a996cc6c5e",
     "title": "extension",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/WebAddress/inheritance.html": {
     "path": "WebAddress/Inheritance",
-    "link-uuid": "c981a793-4b1a-4d5d-a5c8-5fab84ffb2a8",
+    "link-uuid": "5d898159-fc69-47ef-9fda-6ddefb56b621",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/id/index.html": {
     "path": "Card/Attributes/id",
-    "link-uuid": "dd69cf60-6444-47e3-8dc5-d443bc2ea9d0",
+    "link-uuid": "50f3ab8c-b1fc-4d47-90d7-3a3acda29819",
     "title": "id",
     "content": "Type EString Multiplicity 0..1 Unique ID."
   },
   "references/eClassifiers/EMail/inheritance.html": {
     "path": "EMail/Inheritance",
-    "link-uuid": "67bd39b4-0cd8-4d29-a54d-3426ae1ffb23",
+    "link-uuid": "4e311e5d-250b-44ea-8bd9-c89e240e373f",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Customer/inheritance.html": {
     "path": "Customer/Inheritance",
-    "link-uuid": "090498f5-f788-4907-94fb-900429b34e52",
+    "link-uuid": "bf18a6cc-6532-4422-b66e-70d5b9d9615f",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Token/index.html": {
-    "link-uuid": "75d81ce8-94c9-4dcf-8ac0-9f7429d3389e",
+    "link-uuid": "f069ef52-0bfb-4e4f-afa1-7f23b8c3b4aa",
     "title": "Token",
     "content": "TODO"
   },
   "references/eClassifiers/Party/inheritance.html": {
     "path": "Party/Inheritance",
-    "link-uuid": "2dc9d07b-42df-4b84-9c22-dc14ea74cac1",
+    "link-uuid": "d9840caf-cafb-4e98-9604-ab960f29d475",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/city/index.html": {
     "path": "PostalAddress/Attributes/city",
-    "link-uuid": "d97df7d6-40f6-4d6e-b1de-e305f9e2d8dd",
+    "link-uuid": "c4ba351f-320b-4dd9-a3b7-0d6703b9360a",
     "title": "city",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/OnlineTransaction/inheritance.html": {
     "path": "OnlineTransaction/Inheritance",
-    "link-uuid": "c4f598ea-8f43-4b3a-8d09-b0bb5efc2905",
+    "link-uuid": "ebb41ba8-c316-4f22-bf05-7040571faa86",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/credits/index.html": {
     "path": "Statement/References/credits",
-    "link-uuid": "95593a40-2032-451b-a912-bec0960456d6",
+    "link-uuid": "1238a9dc-9868-4f7c-b453-ff6cadda1455",
     "title": "credits",
     "content": "Type Transaction Multiplicity 0..* TODO"
   },
   "references/eClassifiers/DeviceTransaction/index.html": {
-    "link-uuid": "1c0d73d8-cb73-4645-8da7-53102466e95f",
+    "link-uuid": "8bb7150d-224b-45d6-84c1-193299cb4aa9",
     "title": "DeviceTransaction",
     "content": "TODO"
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/credit/index.html": {
     "path": "Transaction/References/credit",
-    "link-uuid": "7eb2c1d7-c691-4886-89fb-9aabe26fa987",
+    "link-uuid": "9cc8a2de-6c63-4180-94fa-df64341a2c1f",
     "title": "credit",
     "content": "Type Statement Multiplicity 1 TODO"
   },
   "references/eClassifiers/PostalAddress/references/eStructuralFeatures/postalCode/index.html": {
     "path": "PostalAddress/Attributes/postalCode",
-    "link-uuid": "5834f866-a335-480c-bbc4-16c6fdea8b10",
+    "link-uuid": "ccdfa71f-e83e-42d3-bd72-26d18199fd04",
     "title": "postalCode",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/transactions/index.html": {
     "path": "Bank/References/transactions",
-    "link-uuid": "b4bd9465-013f-4b52-a172-273ebed1cbb2",
+    "link-uuid": "e0ec715f-db80-4c92-a03c-d25001f201f3",
     "title": "transactions",
     "content": "Type Transaction Multiplicity 0..* Bank transactions"
   },
   "references/eClassifiers/Merchant/inheritance.html": {
     "path": "Merchant/Inheritance",
-    "link-uuid": "2a1e32f0-323a-4540-b89a-95b7e8b6831f",
+    "link-uuid": "9c245653-4eb7-47ba-9107-3e0de62b0306",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Token/references/eStructuralFeatures/merchant/index.html": {
     "path": "Token/References/merchant",
-    "link-uuid": "ec797e1f-e6fe-4c8b-a668-30638f68df12",
+    "link-uuid": "fb622219-c5c5-40c4-969a-0023626c89e6",
     "title": "merchant",
     "content": "Type Merchant Multiplicity 1 TODO"
   },
   "references/eClassifiers/DeviceTransaction/inheritance.html": {
     "path": "DeviceTransaction/Inheritance",
-    "link-uuid": "1555f2f6-de4c-4bbf-8089-7ec0b03f1b9a",
+    "link-uuid": "0a6f3ae2-5c77-443c-bc01-6ad573be774e",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/InternalAccount/inheritance.html": {
     "path": "InternalAccount/Inheritance",
-    "link-uuid": "0e8da1e8-7d5f-404c-af3e-5d650b9ec375",
+    "link-uuid": "fcadef9f-9a6d-4b62-b552-e7b4f7a2e59c",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Product/references/eStructuralFeatures/name/index.html": {
     "path": "Product/Attributes/name",
-    "link-uuid": "d299dfeb-1bd9-49af-95bf-ffdc7a85aa2b",
+    "link-uuid": "3190e352-764a-4bba-85d2-071f6921954d",
     "title": "name",
     "content": "Type EString Multiplicity 1"
   },
   "references/eClassifiers/Card/inheritance.html": {
     "path": "Card/Inheritance",
-    "link-uuid": "d22f0c58-44f3-46cd-b896-506dbb0976b2",
+    "link-uuid": "5764f1b1-86c2-4158-9822-aee768c97fd9",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/CustomerAccount/references/eStructuralFeatures/product/index.html": {
     "path": "CustomerAccount/References/product",
-    "link-uuid": "261ae5e4-c72a-420a-a575-d18063239e08",
+    "link-uuid": "0b4eaeca-cb7f-4baf-8a43-339900c9cd59",
     "title": "product",
     "content": "Type Product Multiplicity 1 TODO"
   },
   "references/eClassifiers/Product/references/eStructuralFeatures/description/index.html": {
     "path": "Product/Attributes/description",
-    "link-uuid": "d2890cb7-5312-477a-8c88-3d9089fbe658",
+    "link-uuid": "c99ea5ef-1a22-4c80-b1be-1f22308ccde3",
     "title": "description",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/activated/index.html": {
     "path": "Card/Attributes/activated",
-    "link-uuid": "9f451281-4ac9-4b2b-87f7-8fb9594f4209",
+    "link-uuid": "7d205d70-a3fb-4c87-825f-19085c10bb43",
     "title": "activated",
     "content": "Type EDate Multiplicity 0..1 Activation date."
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/lockedTo/index.html": {
     "path": "Card/References/lockedTo",
-    "link-uuid": "48c9d07a-3e71-4157-af5a-b26dd18bc022",
+    "link-uuid": "7a6c56eb-d355-46d5-8554-5a96238058a5",
     "title": "lockedTo",
     "content": "Type Merchant Multiplicity 0..1 Party (payee) to which this device is locked to. E.g. a virtual card can be locked to a particular merchant."
   },
   "references/eClassifiers/Statement/index.html": {
-    "link-uuid": "793d5dfe-49e9-4930-a6c3-aaf24603ef54",
+    "link-uuid": "b56999da-1744-4ef8-b670-eec210bb5b63",
     "title": "Statement",
     "content": "TODO"
   },
   "references/eClassifiers/Account/references/eStructuralFeatures/balance/index.html": {
     "path": "Account/Attributes/balance",
-    "link-uuid": "1772d309-b9a4-497a-bdaf-c7a662d1a22d",
+    "link-uuid": "f6db9b8b-8202-4b54-829d-bafa044fa628",
     "title": "balance",
     "content": "Type EBigDecimal Multiplicity 0..1 Account balance."
   },
   "references/eClassifiers/PointOfSale/references/eStructuralFeatures/id/index.html": {
     "path": "PointOfSale/Attributes/id",
-    "link-uuid": "de0cbb8d-fd83-4ed0-b00c-5be8d1db9e20",
+    "link-uuid": "1b9020bf-57dd-4dea-afde-8126bc8c0a6a",
     "title": "id",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/CustomerAccount/inheritance.html": {
     "path": "CustomerAccount/Inheritance",
-    "link-uuid": "b8ec56d7-c390-45db-a4c3-abb5e75592c6",
+    "link-uuid": "e8281c61-8c41-46c1-8332-afe26e130518",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/PostalAddress/inheritance.html": {
     "path": "PostalAddress/Inheritance",
-    "link-uuid": "e018c2e2-698a-426a-9bfb-32b75b8a5f48",
+    "link-uuid": "e06bf0c1-4770-4e05-9eaa-bb4eca5d6e8b",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/EMail/references/eStructuralFeatures/eMailAddress/index.html": {
     "path": "EMail/Attributes/eMailAddress",
-    "link-uuid": "22e72e1d-d8e4-4407-9a7e-0953375a56c3",
+    "link-uuid": "4674b48b-0621-4d49-9d98-60b06c1185e9",
     "title": "eMailAddress",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Bank/index.html": {
-    "link-uuid": "927f5247-3c7a-461f-9168-9f35f7edda8e",
+    "link-uuid": "ebaf88bb-635c-4bdc-8e74-f24d6f1c2f03",
     "title": "Bank",
     "content": "Bank is the root of the domain model. Bank has customers and bankers - employees performing banking operations. Bank tracks merchants its customers interact with in order to provide customers information about their spending habits."
   },
   "references/eClassifiers/Phone/references/eStructuralFeatures/areaCode/index.html": {
     "path": "Phone/Attributes/areaCode",
-    "link-uuid": "a4ccda63-21bf-470e-bbe8-107c14b0ded8",
+    "link-uuid": "137d2048-5e30-4fd8-b08c-1d09fbfeffba",
     "title": "areaCode",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/Statement/references/eStructuralFeatures/closingBalance/index.html": {
     "path": "Statement/Attributes/closingBalance",
-    "link-uuid": "62c5d46c-29ff-45f9-b444-daf5ae0b6d62",
+    "link-uuid": "38fd6c0e-fc91-44a6-9dd4-33365e504a10",
     "title": "closingBalance",
     "content": "Type EBigDecimal Multiplicity 0..1 Closing balance."
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/id/index.html": {
     "path": "Transaction/Attributes/id",
-    "link-uuid": "437e96c4-f488-4078-9e7d-88c99ba6e76d",
+    "link-uuid": "56c9560d-d2d2-4b9d-adca-53d566b57037",
     "title": "id",
     "content": "Type EString Multiplicity 0..1 Unique transaction ID."
   },
   "references/eClassifiers/Phone/references/eStructuralFeatures/countryCode/index.html": {
     "path": "Phone/Attributes/countryCode",
-    "link-uuid": "67b15b41-f450-4274-b76b-d105e72e90b0",
+    "link-uuid": "f5a6ff25-2055-49b4-a0d5-fe499b900aa2",
     "title": "countryCode",
     "content": "Type EInt Multiplicity 0..1"
   },
   "references/eClassifiers/ContactMethod/inheritance.html": {
     "path": "ContactMethod/Inheritance",
-    "link-uuid": "a5725423-019a-41e4-ab0c-07fdc02ab6d9",
+    "link-uuid": "2bcbeced-ee09-444a-bba5-52bd0e558366",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/debit/index.html": {
     "path": "Transaction/References/debit",
-    "link-uuid": "37b5e21f-c948-44ba-885e-ba0726135b3e",
+    "link-uuid": "c8e0f920-1fe3-4451-8686-333217d1b069",
     "title": "debit",
     "content": "Type Statement Multiplicity 1 TODO"
   },
   "references/eClassifiers/Account/references/eStructuralFeatures/periodStart/index.html": {
     "path": "Account/Attributes/periodStart",
-    "link-uuid": "85b51c4d-0e33-4c15-8b29-6556d72b9f4a",
+    "link-uuid": "65ea1e46-a9ee-4b01-9794-df417a1ac346",
     "title": "periodStart",
     "content": "Type EInt Multiplicity 0..1 Billing period start."
   },
   "references/eClassifiers/TokenTransaction/inheritance.html": {
     "path": "TokenTransaction/Inheritance",
-    "link-uuid": "a7b779f6-55df-4d09-85d8-04d30ca72a28",
+    "link-uuid": "ddfe2d5a-ea7d-4d99-aece-8c472241ee98",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/CustomerAccount/references/eStructuralFeatures/owners/index.html": {
     "path": "CustomerAccount/References/owners",
-    "link-uuid": "3a27cb09-6478-4f34-80c1-9d280151a868",
+    "link-uuid": "50a02241-a8eb-465e-a958-881ff322ef10",
     "title": "owners",
     "content": "Type Customer Multiplicity 0..* TODO"
   },
   "references/eClassifiers/ContactMethod/references/eStructuralFeatures/name/index.html": {
     "path": "ContactMethod/Attributes/name",
-    "link-uuid": "1839d427-2552-49c2-b9dd-144b3c209580",
+    "link-uuid": "c94a1597-8ffb-4c07-be3e-ea7f0cb114db",
     "title": "name",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/DeviceTransaction/references/eStructuralFeatures/pointOfSale/index.html": {
     "path": "DeviceTransaction/References/pointOfSale",
-    "link-uuid": "1b6e7f7d-95f6-4f62-96f9-b78dca8728c2",
+    "link-uuid": "03bc5dd5-08bf-4b12-8637-d8bc3e49e826",
     "title": "pointOfSale",
     "content": "Type PointOfSale Multiplicity 0..1 TODO"
   },
   "references/eClassifiers/Transaction/references/eStructuralFeatures/comment/index.html": {
     "path": "Transaction/Attributes/comment",
-    "link-uuid": "bd253dc4-b445-4c2e-a579-6f1638309ba3",
+    "link-uuid": "1c46bb16-a94d-456a-b543-32880252e204",
     "title": "comment",
     "content": "Type EString Multiplicity 0..1 Additional information"
   },
   "references/eClassifiers/Party/references/eStructuralFeatures/contactMethods/index.html": {
     "path": "Party/References/contactMethods",
-    "link-uuid": "b0283262-4dc7-4877-a447-ad97fa561153",
+    "link-uuid": "adcf8918-0519-4847-adce-be3fac328e01",
     "title": "contactMethods",
     "content": "Type ContactMethod Multiplicity 0..* Party can have zero or more contact methods."
   },
   "references/eClassifiers/Bank/references/eStructuralFeatures/products/index.html": {
     "path": "Bank/References/products",
-    "link-uuid": "4f8d38b8-a379-441e-8b55-2b422ec1f8b7",
+    "link-uuid": "2d1e9a25-a257-41b8-bae9-b3ae7a801329",
     "title": "products",
     "content": "Type Product Multiplicity 0..* Customer accounts belong to banking products which define their configuration such as fees and rates."
   },
   "references/eClassifiers/CustomerAccount/index.html": {
-    "link-uuid": "76328920-fe9d-45af-87de-5cb02c2bb36c",
+    "link-uuid": "abccb241-2e20-4b87-aede-5b68b6054e52",
     "title": "CustomerAccount",
     "content": "TODO"
   },
   "references/eClassifiers/PointOfSale/references/eStructuralFeatures/location/index.html": {
     "path": "PointOfSale/References/location",
-    "link-uuid": "44a91584-b6be-4c1f-bf84-1db4a08691ce",
+    "link-uuid": "491fdd3e-a5aa-4bc4-93fc-051adecda918",
     "title": "location",
     "content": "Type PostalAddress Multiplicity 0..1"
   },
   "references/eClassifiers/Transaction/inheritance.html": {
     "path": "Transaction/Inheritance",
-    "link-uuid": "c9f13307-e20c-4b2b-8860-ef4359bf2ad6",
+    "link-uuid": "85a1d3a3-ba0a-45f0-bed9-61d3793598a2",
     "title": "Inheritance",
     "content": "Subtypes "
   }
