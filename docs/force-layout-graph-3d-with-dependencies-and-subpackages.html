@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <title>Force Graph 3D</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika-Models/html-app@master/gen/web-resources/css/app.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/html-app@master/gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/html-app@master/gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/html-app@master/gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/components/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/3d-force-graph"></script><!-- Node text styling -->      
+<style>
+  .node-label {
+        font-size: 12px;
+        padding: 1px 4px;
+        border-radius: 4px;
+        background-color: rgba(0,0,0,0.5);
+        user-select: none;
+      }               
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRJVLK8CC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9BRJVLK8CC');
+</script>    
+</head>
+  <body>
+    <div tabindex="-1" id="nsd_34i" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">Hover mouse over nodes elements to display tooltips.
+Double-click on nodes to navigate go documentation.
+Left click - rotate.
+Mouse wheel - zoom.
+Right click - pan.
+Drag to rearrange.
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://github.com/Nasdanika-Models" data-nsd-label-uuid="ae2eb61d-3c1e-4495-9b09-b6e0104b4192" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon"/>Nasdanika Models</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item">
+              <a href="search.html" data-nsd-label-uuid="80f65d69-a0b2-4b97-9133-cafe1b030664" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
+            </li>
+            <li class="nav-item">
+              <a href="glossary.html" data-nsd-label-uuid="3fb2f1e8-bf6a-474a-b9e9-f965ea5d0e2d" class="nav-link"><span class="fas fa-book nsd-app-label-icon"></span>Glossary</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="index.html" data-nsd-label-uuid="813e6f5b-6876-4fc7-8700-e0a7ce2735bc" class="navbar-brand">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EPackage.gif" class="nsd-app-label-icon"/>bank</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_33q" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_33q" class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a href="classifiers.html" data-nsd-label-uuid="29092d3f-9ac0-4100-aa8e-aa3c5f5a7bd5" class="nav-link">Classifiers</a>
+                </li>
+                <li class="nav-item">
+                  <a href="diagram.html" data-nsd-label-uuid="94e4b6c4-8cbf-4dbf-9d2b-7509fa8a4117" class="nav-link"><span class="fas fa-project-diagram nsd-app-label-icon"></span>Diagram</a>
+                </li>
+                <li class="nav-item">
+                  <li data-nsd-label-uuid="5a48b67d-78fc-4a1f-bd44-705559252ce1" class="dropdown">
+                    <a role="button" data-toggle="dropdown" class="nav-link dropdown-toggle">
+                      <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon"/>Graphs</a>
+                    <div class="dropdown-menu">
+                      <a href="default-graph.html" data-nsd-label-uuid="43563f4f-486e-4397-9b40-fec53ed58e9d" class="dropdown-item">Default Graph</a>
+                      <a href="circular-layout-graph.html" data-nsd-label-uuid="d5136dc9-2107-4909-8447-4b47fd23bb8e" class="dropdown-item">Circular Graph</a>
+                      <a href="force-layout-graph.html" data-nsd-label-uuid="e332bebe-80c5-4681-a9ee-00a283d22cb8" class="dropdown-item">Force Graph</a>
+                      <a href="force-layout-graph-3d.html" data-nsd-label-uuid="8d296429-05c6-4820-87ed-a5a474e9d81c" class="dropdown-item">Force Graph 3D</a>
+                      <div title="With dependencies and sub-packages" class="dropdown-divider"></div>
+                      <a href="default-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="117b4323-6f49-43c9-b6b1-58db062fad68" class="dropdown-item">Default Graph</a>
+                      <a href="circular-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="41b006da-646b-4ed4-9fdf-fd2a1494a04b" class="dropdown-item">Circular Graph</a>
+                      <a href="force-layout-graph-with-dependencies-and-subpackages.html" data-nsd-label-uuid="4f8be559-fc83-4ded-975a-9fa58e90c979" class="dropdown-item">Force Graph</a><span data-nsd-label-uuid="3b35156c-5754-4b7c-af3b-46153d2887ed" class="active dropdown-item">Force Graph 3D</span>
+                    </div>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <div class="list-group list-group-flush">
+            <a href="references/eClassifiers/Account/index.html" data-nsd-label-uuid="db5d5f1b-6415-46ee-97e9-e6330f98630a" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/><i>Account</i></a>
+            <a href="references/eClassifiers/Bank/index.html" data-nsd-label-uuid="4eb8e4a6-8cea-4dfc-9fff-a8b3ee3f6b6c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Bank</a>
+            <a href="references/eClassifiers/Banker/index.html" data-nsd-label-uuid="a3f8b8f2-1e3d-4e9d-a990-dd13154ef03f" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Banker</a>
+            <a href="references/eClassifiers/BankerTransaction/index.html" data-nsd-label-uuid="23f928a6-bb90-4b3a-bd3a-ca4e9316d0fd" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>BankerTransaction</a>
+            <a href="references/eClassifiers/Card/index.html" data-nsd-label-uuid="33da80d6-69f1-4919-95bf-7c61c48eb610" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Card</a>
+            <a href="references/eClassifiers/ContactMethod/index.html" data-nsd-label-uuid="8c5613aa-4d12-4477-980a-95ec31279232" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EInterface.gif" class="nsd-app-label-icon"/><i>ContactMethod</i></a>
+            <a href="references/eClassifiers/Customer/index.html" data-nsd-label-uuid="bfd601d6-38a3-42bc-a9d3-087dec2b76bd" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Customer</a>
+            <a href="references/eClassifiers/CustomerAccount/index.html" data-nsd-label-uuid="b884bdeb-6676-47f6-86c4-a90efcb6771d" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>CustomerAccount</a>
+            <a href="references/eClassifiers/Device/index.html" data-nsd-label-uuid="ec495422-d18a-4369-85f1-e5eac7a36e0b" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/><i>Device</i></a>
+            <a href="references/eClassifiers/DeviceTransaction/index.html" data-nsd-label-uuid="37ed91aa-3d24-4aae-ae23-1a469664a67e" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>DeviceTransaction</a>
+            <a href="references/eClassifiers/EMail/index.html" data-nsd-label-uuid="86af9f0f-ea31-4062-be9f-01a246485816" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>EMail</a>
+            <a href="references/eClassifiers/InternalAccount/index.html" data-nsd-label-uuid="3fa682fe-a5d0-4abc-8e1f-b193c2f9922e" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>InternalAccount</a>
+            <a href="references/eClassifiers/Merchant/index.html" data-nsd-label-uuid="f1fb7fea-12d0-434d-a481-f54306d6716c" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Merchant</a>
+            <a href="references/eClassifiers/MobilePhone/index.html" data-nsd-label-uuid="16a86613-10b2-4451-80da-34738e208eb7" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>MobilePhone</a>
+            <a href="references/eClassifiers/OnlineSession/index.html" data-nsd-label-uuid="c0e52a52-3426-45d6-af34-f69487bfedc7" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>OnlineSession</a>
+            <a href="references/eClassifiers/OnlineTransaction/index.html" data-nsd-label-uuid="7f458ba4-27e5-4e91-971d-d458d87f6142" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>OnlineTransaction</a>
+            <a href="references/eClassifiers/Party/index.html" data-nsd-label-uuid="0d7defac-e02e-427b-adb5-668a2fdfe882" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/><i>Party</i></a>
+            <a href="references/eClassifiers/Phone/index.html" data-nsd-label-uuid="34dac3c1-3961-433b-a172-ee983c512a43" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Phone</a>
+            <a href="references/eClassifiers/PointOfSale/index.html" data-nsd-label-uuid="d654ef12-56ef-428b-b522-2192b4a128a1" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>PointOfSale</a>
+            <a href="references/eClassifiers/PostalAddress/index.html" data-nsd-label-uuid="e8ea34e5-5aa8-48aa-a18d-d9aa1a36f65e" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>PostalAddress</a>
+            <a href="references/eClassifiers/Product/index.html" data-nsd-label-uuid="2867c21b-685e-4b36-86e2-d20c3a757423" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Product</a>
+            <a href="references/eClassifiers/Statement/index.html" data-nsd-label-uuid="5ed79686-45d0-4880-9d58-41a0ab89cf70" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Statement</a>
+            <a href="references/eClassifiers/Token/index.html" data-nsd-label-uuid="148829d4-ca5a-49d7-aa1d-a184c0cd0ea2" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>Token</a>
+            <a href="references/eClassifiers/TokenTransaction/index.html" data-nsd-label-uuid="b13e2072-83cf-4a7f-88b7-6b2334612985" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>TokenTransaction</a>
+            <a href="references/eClassifiers/Transaction/index.html" data-nsd-label-uuid="966a17d1-b42f-49e8-902a-7a1bd8cbe3f8" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/><i>Transaction</i></a>
+            <a href="references/eClassifiers/TransactionInitiator/index.html" data-nsd-label-uuid="4a2a0439-bda8-43ee-9da3-d274f644e988" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/><i>TransactionInitiator</i></a>
+            <a href="references/eClassifiers/WebAddress/index.html" data-nsd-label-uuid="55a4630c-f30b-482b-b7d4-e0428a6e34f0" class="list-group-item list-group-action">
+              <img src="https://cdn.jsdelivr.net/gh/Nasdanika-Models/ecore@master/graph/web-resources/icons/EClass.gif" class="nsd-app-label-icon"/>WebAddress</a>
+          </div>
+        </div>
+        <div data-nsd-label-uuid="3b35156c-5754-4b7c-af3b-46153d2887ed" data-nsd-action-uris="uuid:3b35156c-5754-4b7c-af3b-46153d2887ed" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-breadcrumb-row">
+              <div class="col">
+                <nav aria-label="breadcrumb" class="nsd-app-content-panel-breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><span data-nsd-label-uuid="5a48b67d-78fc-4a1f-bd44-705559252ce1"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/16/external-diagram-seo-media-dreamstale-lineal-dreamstale.png" class="nsd-app-label-icon"/>Graphs</span>
+                    </li>
+                    <li class="breadcrumb-item active"><span data-nsd-label-uuid="3b35156c-5754-4b7c-af3b-46153d2887ed">Force Graph 3D</span>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <H1><span data-nsd-label-uuid="3b35156c-5754-4b7c-af3b-46153d2887ed" class="nsd-app-content-panel-title">Force Graph 3D<a data-toggle="modal" data-target="#nsd_34i" href="#" title="A live force-layout graph of package classifiers showing relationships between them" style="vertical-align:super;font-size:x-small;margin-left:0.2em"><span class="far fa-question-circle nsd-app-label-icon"></span></a></span>
+                </H1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col"><div id="force-graph89" class="row" style="height:70vh;width:100%">
+</div>
+<script type="module">
+	import { CSS2DRenderer, CSS2DObject } from 'https://esm.sh/three/examples/jsm/renderers/CSS2DRenderer.js';
+
+	        new ForceGraph3D(
+                document.getElementById('force-graph89'), 
+                {
+                        extraRenderers: [
+                                new CSS2DRenderer()
+                        ]
+                })
+                .graphData({
+          "nodes": [
+            {
+              "name": "PostalAddress",
+              "id": "PostalAddress@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/PostalAddress/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EMail",
+              "id": "EMail@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/EMail/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "WebAddress",
+              "id": "WebAddress@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/WebAddress/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Party",
+              "id": "Party@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Party/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EString",
+              "id": "EString@http://www.eclipse.org/emf/2002/Ecore",
+              "value": [{"externalLink": "https://ecore.models.nasdanika.org/references/eClassifiers/EString/index.html"}],
+              "group": "ecore"
+            },
+            {
+              "name": "Phone",
+              "id": "Phone@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Phone/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "ContactMethod",
+              "id": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/ContactMethod/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Transaction",
+              "id": "Transaction@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Transaction/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EBigDecimal",
+              "id": "EBigDecimal@http://www.eclipse.org/emf/2002/Ecore",
+              "value": [{"externalLink": "https://ecore.models.nasdanika.org/references/eClassifiers/EBigDecimal/index.html"}],
+              "group": "ecore"
+            },
+            {
+              "name": "Statement",
+              "id": "Statement@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Statement/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Account",
+              "id": "Account@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Account/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EDate",
+              "id": "EDate@http://www.eclipse.org/emf/2002/Ecore",
+              "value": [{"externalLink": "https://ecore.models.nasdanika.org/references/eClassifiers/EDate/index.html"}],
+              "group": "ecore"
+            },
+            {
+              "name": "TransactionInitiator",
+              "id": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/TransactionInitiator/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Merchant",
+              "id": "Merchant@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Merchant/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Device",
+              "id": "Device@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Device/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Token",
+              "id": "Token@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Token/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Banker",
+              "id": "Banker@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Banker/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "OnlineSession",
+              "id": "OnlineSession@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/OnlineSession/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Card",
+              "id": "Card@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Card/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EBoolean",
+              "id": "EBoolean@http://www.eclipse.org/emf/2002/Ecore",
+              "value": [{"externalLink": "https://ecore.models.nasdanika.org/references/eClassifiers/EBoolean/index.html"}],
+              "group": "ecore"
+            },
+            {
+              "name": "Customer",
+              "id": "Customer@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Customer/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "CustomerAccount",
+              "id": "CustomerAccount@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/CustomerAccount/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Bank",
+              "id": "Bank@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Bank/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "DeviceTransaction",
+              "id": "DeviceTransaction@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/DeviceTransaction/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "PointOfSale",
+              "id": "PointOfSale@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/PointOfSale/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "TokenTransaction",
+              "id": "TokenTransaction@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/TokenTransaction/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "MobilePhone",
+              "id": "MobilePhone@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/MobilePhone/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "InternalAccount",
+              "id": "InternalAccount@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/InternalAccount/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "OnlineTransaction",
+              "id": "OnlineTransaction@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/OnlineTransaction/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "Product",
+              "id": "Product@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/Product/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "BankerTransaction",
+              "id": "BankerTransaction@ecore://nasdanika.org/models/bank",
+              "value": [{"externalLink": "references/eClassifiers/BankerTransaction/index.html"}],
+              "group": "bank"
+            },
+            {
+              "name": "EInt",
+              "id": "EInt@http://www.eclipse.org/emf/2002/Ecore",
+              "value": [{"externalLink": "https://ecore.models.nasdanika.org/references/eClassifiers/EInt/index.html"}],
+              "group": "ecore"
+            }
+          ],
+          "links": [
+            {
+              "source": "PostalAddress@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "PostalAddress@ecore://nasdanika.org/models/bank",
+              "target": "ContactMethod@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "PostalAddress@ecore://nasdanika.org/models/bank",
+              "target": "PointOfSale@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "EMail@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "EMail@ecore://nasdanika.org/models/bank",
+              "target": "ContactMethod@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "WebAddress@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "WebAddress@ecore://nasdanika.org/models/bank",
+              "target": "ContactMethod@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "ContactMethod@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "Merchant@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "Banker@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "Customer@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Party@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Phone@ecore://nasdanika.org/models/bank",
+              "target": "ContactMethod@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Phone@ecore://nasdanika.org/models/bank",
+              "target": "EInt@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "PostalAddress@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "EMail@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "WebAddress@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "Party@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "ContactMethod@ecore://nasdanika.org/models/bank",
+              "target": "Phone@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "EBigDecimal@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "Statement@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "EDate@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "TransactionInitiator@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "DeviceTransaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "TokenTransaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "OnlineTransaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Transaction@ecore://nasdanika.org/models/bank",
+              "target": "BankerTransaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Statement@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Statement@ecore://nasdanika.org/models/bank",
+              "target": "EBigDecimal@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Statement@ecore://nasdanika.org/models/bank",
+              "target": "Account@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Statement@ecore://nasdanika.org/models/bank",
+              "target": "EDate@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "EBigDecimal@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "Statement@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "CustomerAccount@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "InternalAccount@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Account@ecore://nasdanika.org/models/bank",
+              "target": "EInt@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "target": "Token@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "target": "Banker@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TransactionInitiator@ecore://nasdanika.org/models/bank",
+              "target": "OnlineSession@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Merchant@ecore://nasdanika.org/models/bank",
+              "target": "Party@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Merchant@ecore://nasdanika.org/models/bank",
+              "target": "Token@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Merchant@ecore://nasdanika.org/models/bank",
+              "target": "Card@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Merchant@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Merchant@ecore://nasdanika.org/models/bank",
+              "target": "PointOfSale@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Device@ecore://nasdanika.org/models/bank",
+              "target": "TransactionInitiator@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Device@ecore://nasdanika.org/models/bank",
+              "target": "Token@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Device@ecore://nasdanika.org/models/bank",
+              "target": "Card@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Device@ecore://nasdanika.org/models/bank",
+              "target": "CustomerAccount@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Device@ecore://nasdanika.org/models/bank",
+              "target": "MobilePhone@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Token@ecore://nasdanika.org/models/bank",
+              "target": "TransactionInitiator@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Token@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Token@ecore://nasdanika.org/models/bank",
+              "target": "Merchant@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Token@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Banker@ecore://nasdanika.org/models/bank",
+              "target": "TransactionInitiator@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Banker@ecore://nasdanika.org/models/bank",
+              "target": "Party@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Banker@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "OnlineSession@ecore://nasdanika.org/models/bank",
+              "target": "TransactionInitiator@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "OnlineSession@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "OnlineSession@ecore://nasdanika.org/models/bank",
+              "target": "EDate@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "OnlineSession@ecore://nasdanika.org/models/bank",
+              "target": "Customer@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Card@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Card@ecore://nasdanika.org/models/bank",
+              "target": "Merchant@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Card@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Card@ecore://nasdanika.org/models/bank",
+              "target": "EDate@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Card@ecore://nasdanika.org/models/bank",
+              "target": "EBoolean@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Customer@ecore://nasdanika.org/models/bank",
+              "target": "Party@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Customer@ecore://nasdanika.org/models/bank",
+              "target": "OnlineSession@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Customer@ecore://nasdanika.org/models/bank",
+              "target": "CustomerAccount@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Customer@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "CustomerAccount@ecore://nasdanika.org/models/bank",
+              "target": "Customer@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "CustomerAccount@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "CustomerAccount@ecore://nasdanika.org/models/bank",
+              "target": "Account@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "CustomerAccount@ecore://nasdanika.org/models/bank",
+              "target": "Product@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Customer@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Party@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Merchant@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Banker@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Account@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Bank@ecore://nasdanika.org/models/bank",
+              "target": "Product@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "DeviceTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "DeviceTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "DeviceTransaction@ecore://nasdanika.org/models/bank",
+              "target": "PointOfSale@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "PointOfSale@ecore://nasdanika.org/models/bank",
+              "target": "PostalAddress@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "PointOfSale@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "PointOfSale@ecore://nasdanika.org/models/bank",
+              "target": "DeviceTransaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "PointOfSale@ecore://nasdanika.org/models/bank",
+              "target": "Merchant@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TokenTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "TokenTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Token@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "MobilePhone@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "MobilePhone@ecore://nasdanika.org/models/bank",
+              "target": "Device@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "InternalAccount@ecore://nasdanika.org/models/bank",
+              "target": "Account@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "OnlineTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "OnlineTransaction@ecore://nasdanika.org/models/bank",
+              "target": "OnlineSession@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Product@ecore://nasdanika.org/models/bank",
+              "target": "EString@http://www.eclipse.org/emf/2002/Ecore"
+            },
+            {
+              "source": "Product@ecore://nasdanika.org/models/bank",
+              "target": "CustomerAccount@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "Product@ecore://nasdanika.org/models/bank",
+              "target": "Bank@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "BankerTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Transaction@ecore://nasdanika.org/models/bank"
+            },
+            {
+              "source": "BankerTransaction@ecore://nasdanika.org/models/bank",
+              "target": "Banker@ecore://nasdanika.org/models/bank"
+            }
+          ]
+        })
+                .nodeAutoColorBy('group')
+                .nodeVal('size')
+                .linkDirectionalArrowLength(2.5)
+                .linkDirectionalArrowRelPos(1)
+                .onNodeClick((node, event) => {
+       if (node.lastClick) {
+        if (event.timeStamp - node.lastClick < 500) {
+			if (Array.isArray(node.value) && node.value.length > 0) {
+				if (node.value[0].link) {
+					window.open(node.value[0].link, "_self");
+				} else if (node.value[0].externalLink) {
+					window.open(node.value[0].externalLink);
+				}
+			}
+			delete node.lastClick;
+		} else {
+			node.lastClick = event.timeStamp;
+		}
+	} else {
+		node.lastClick = event.timeStamp;
+	}
+   })
+                .nodeThreeObject(node => {
+        const nodeEl = document.createElement('div');
+        nodeEl.textContent = node.name;
+        nodeEl.style.color = node.color;
+        nodeEl.className = 'node-label';
+        return new CSS2DObject(nodeEl);
+      })
+                .nodeThreeObjectExtend(true)
+                .onNodeDragEnd(node => {
+          node.fx = node.x;
+          node.fy = node.y;
+          node.fz = node.z;
+        })
+</script>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-footer">
+          <ul class="nav nsd-app-footer-navs">
+            <li class="nav-item">
+              <a href="https://github.com/Nasdanika-Models/bank" data-nsd-label-uuid="c30b1065-92b2-4393-b5b5-aec99ae4acb4" class="nav-link"><span class="fab fa-github nsd-app-label-icon"></span>Sources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
