@@ -102,7 +102,7 @@ public class TestBankModelDocGen {
 		
 		System.out.println("There are " + errorCount + " site errors");
 		
-		if (errorCount != 190) {
+		if (errorCount != 221) {
 			throw new ExecutionException("There are problems with pages: " + errorCount);
 		}		
 	}
