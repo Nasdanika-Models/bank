@@ -20,7 +20,7 @@ public class BankNodeProcessorFactory {
 	private Context context;
 	private java.util.function.BiFunction<URI, ProgressMonitor, Action> prototypeProvider;
 
-	protected java.util.function.Function<ProgressMonitor, Action> getPrototypeProvider(NodeProcessorConfig<WidgetFactory, WidgetFactory> config) {
+	protected java.util.function.Function<ProgressMonitor, Action> getPrototypeProvider(NodeProcessorConfig<WidgetFactory, WidgetFactory, Object> config) {
 		return progressMonitor -> {
 			if (prototypeProvider != null) {
 				for (URI identifier: NcoreUtil.getIdentifiers(((EObjectNode) config.getElement()).get())) {
